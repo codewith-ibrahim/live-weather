@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+    .weather-app {
+        max-width: 500px;
+    }
+    
+    .current-weather-container {
+        flex-direction: column;
+    }
+    
+    .forecast-items {
+        grid-template-columns: repeat(4, 1fr);
+        overflow-x: auto;
+        padding-bottom: 10px;
+    }
+    
+    .forecast-item {
+        min-width: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .weather-app {
+        border-radius: 15px;
+    }
+    
+    .app-header {
+        padding: 15px;
+    }
+    
+    .temperature {
+        font-size: 3rem;
+    }
+    
+    .weather-details {
+        grid-template-columns: 1fr;
+    }
+    
+    .forecast-items {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
