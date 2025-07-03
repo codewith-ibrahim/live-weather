@@ -16,6 +16,10 @@ A simple **live weather application** built using **HTML**, **CSS**, and **JavaS
 - JavaScript (Vanilla)
 - [OpenWeatherMap API](https://openweathermap.org/api)
 
+## 🔗 Live
+
+[Visit the Live Site](https://ibrahim-live-weather.netlify.app/)
+
 ## 🎨 UI Preview
 
 ![Weather App Screenshot](assets/demo/demo-1.png)
